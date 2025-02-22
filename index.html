@@ -954,11 +954,11 @@
           <h3 class="h3 form-title">Contact Form</h3>
 
           <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
-                                        <input type="hidden" name="access_key" value="75a946e6-8af7-40e9-a755-1f7e22c412af"/>
+          <input type="hidden" name="access_key" value="75a946e6-8af7-40e9-a755-1f7e22c412af"/>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-                            <input type="number" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+               <input type="number" name="Mobile Number" class="form-input" placeholder="Enter your Mobile Number" required data-form-input>
 
 
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
@@ -966,7 +966,7 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button onclick="myFunction()" class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
@@ -974,6 +974,12 @@
           </form>
 
         </section>
+        <script>
+function myFunction() {
+  location.replace("index.html")
+}
+</script>
+
 
       </article>
 
