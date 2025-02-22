@@ -953,7 +953,7 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" method="POST" class="form" data-form>
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
           <input type="hidden" name="access_key" value="75a946e6-8af7-40e9-a755-1f7e22c412af"/>
 
             <div class="input-wrapper">
@@ -966,9 +966,9 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button onclick="myFunction()" class="form-btn" type="submit" disabled data-form-btn>
+            <button  class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
+              <span onclick="myFunction()">Send Message</span>
             </button>
 
           </form>
